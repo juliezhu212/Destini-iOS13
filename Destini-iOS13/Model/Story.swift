@@ -9,7 +9,9 @@
 import Foundation
 
 struct Story {
-    var title = ""
-    var choice1 = ""
-    var choice2 = ""
+    var title: String
+    var choice1: String
+    var choice1Destination: Int
+    var choice2: String
+    var choice2Destination: Int
 }
